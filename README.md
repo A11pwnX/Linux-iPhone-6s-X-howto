@@ -1,1 +1,1 @@
-# Linux-iPhone-6s-X
+# Linux-iPhone-6s-X-howto
