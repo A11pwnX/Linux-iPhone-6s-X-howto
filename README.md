@@ -55,10 +55,11 @@ cd Linux-iPhone-6s-X-howto
 - This project is for experimentation and learning purposes only.
 
 ## Credits
-https://github.com/konradybcio/linux-apple
-https://github.com/konradybcio/pongoOS
-https://github.com/SoMainline/linux-apple-resources
-https://checkra.in
+
+- https://github.com/konradybcio/linux-apple
+- https://github.com/konradybcio/pongoOS
+- https://github.com/SoMainline/linux-apple-resources
+- https://checkra.in
 
 ---
 
