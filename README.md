@@ -40,7 +40,7 @@ cd Linux-iPhone-6s-X-howto
    sudo python3 ./bin/load_linux.py -k ./kernel/Image.lzma -d ./kernel/dtbpack -r ./initramfs/initramfs
    ```
 
-   > This command uploads the Linux kernel, dtbpack, and initramfs to your device via PongoOS.
+   > This command uploads and boot the Linux kernel, dtbpack, and initramfs to your device via PongoOS.
 
 ## Project Structure
 
