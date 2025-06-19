@@ -32,7 +32,7 @@ cd Linux-iPhone-6s-X-howto
    sudo ./bin/checkra1n -cpk ./pongo/Pongo.bin
    ```
 
-   > This will boot pongoOS on your device and load PongoOS.
+   > This will boot pongoOS on your device.
 
 2. **Load the Linux kernel, DTB, and initramfs:**
 
@@ -40,7 +40,7 @@ cd Linux-iPhone-6s-X-howto
    sudo python3 ./bin/load_linux.py -k ./kernel/Image.lzma -d ./kernel/dtbpack -r ./initramfs/initramfs
    ```
 
-   > This command uploads the Linux kernel, DTB pack, and initramfs to your device via PongoOS.
+   > This command uploads the Linux kernel, dtbpack, and initramfs to your device via PongoOS.
 
 ## Project Structure
 
