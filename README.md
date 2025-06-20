@@ -50,7 +50,7 @@ This command uploads and boots the Linux kernel, dtbpack, and initramfs to your 
 - `kernel/` : Kernel image (`Image.lzma`) and dtbpack (`dtbpack`)
 - `initramfs/` : Linux ramdisk files (`initramfs`)
 
-## Boot postmarketOS via NETBOOT
+## Boot postmarketOS via NETBOOT (not working at the moment)
 
 On your computer, install pmbootstrap:
 
