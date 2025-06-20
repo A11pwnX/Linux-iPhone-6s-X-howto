@@ -1,3 +1,4 @@
+
 # Linux-iPhone-6s-X-howto
 
 This project provides a guide and the necessary tools to boot Linux on compatible iPhones (6s, 6s Plus, 7, 7 Plus, 8, 8 Plus, and X — A9, A10, and A11 devices) on iOS 12-14.5 using checkra1n, pongoOS, and custom kernel images.
@@ -28,19 +29,19 @@ cd Linux-iPhone-6s-X-howto
 
 1. **Launch checkra1n with PongoOS:**
 
-   ```bash
-   sudo ./bin/checkra1n -cpk ./pongo/Pongo.bin
-   ```
+```bash
+sudo ./bin/checkra1n -cpk ./pongo/Pongo.bin
+```
 
-   > This will boot pongoOS on your device.
+This will boot pongoOS on your device.
 
 2. **Load the Linux kernel, DTB, and initramfs:**
 
-   ```bash
-   sudo python3 ./bin/load_linux.py -k ./kernel/Image.lzma -d ./kernel/dtbpack -r ./initramfs/initramfs
-   ```
+```bash
+sudo python3 ./bin/load_linux.py -k ./kernel/Image.lzma -d ./kernel/dtbpack -r ./initramfs/initramfs
+```
 
-   > This command uploads and boot the Linux kernel, dtbpack, and initramfs to your device via PongoOS.
+This command uploads and boots the Linux kernel, dtbpack, and initramfs to your device via PongoOS.
 
 ## Project Structure
 
@@ -49,9 +50,44 @@ cd Linux-iPhone-6s-X-howto
 - `kernel/` : Kernel image (`Image.lzma`) and dtbpack (`dtbpack`)
 - `initramfs/` : Linux ramdisk files (`initramfs`)
 
+## Boot postmarketOS via NETBOOT
+
+On your computer, install pmbootstrap:
+
+```bash
+pip3 install --user pmbootstrap
+```
+
+Initialize pmbootstrap:
+
+```bash
+pmbootstrap init
+```
+
+Select the following options during initialization:
+
+- Channel: `edge`
+- Vendor: `apple`
+- Device codename: `iphone7`
+- Username: `user`
+- User interface: `xfce4`
+- Device hostname: `iPhone-linux`
+
+Install the system:
+
+```bash
+pmbootstrap install
+```
+
+Start the netboot server:
+
+```bash
+pmbootstrap netboot serve
+```
+
 ## Warnings
 
-- **Use at your own risk!** Do this on your device may cause data loss or damage.
+- **Use at your own risk!** Doing this on your device may cause data loss or damage.
 - This project is for experimentation and learning purposes only.
 
 ## Credits
