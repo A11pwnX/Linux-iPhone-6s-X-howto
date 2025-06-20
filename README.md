@@ -23,6 +23,7 @@ Clone this repository:
 ```bash
 git clone https://github.com/A11pwnX/Linux-iPhone-6s-X-howto.git
 cd Linux-iPhone-6s-X-howto
+chmod +x ./bin/checkra1n
 ```
 
 ## Booting Linux on your iPhone
