@@ -41,6 +41,7 @@ This will boot pongoOS on your device.
 sudo python3 ./bin/load_linux.py -k ./kernel/Image.lzma -d ./kernel/dtbpack -r ./initramfs/initramfs
 ```
 
+you can put any ramdisk in place of the one provided with the repo (which is broken) by putting the path to your ramdisk after the -r of the command
 This command uploads and boots the Linux kernel, dtbpack, and initramfs to your device via PongoOS.
 
 ## Project Structure
