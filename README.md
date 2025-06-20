@@ -1,7 +1,7 @@
 
 # Linux-iPhone-6s-X-howto
 
-This project provides a guide and the necessary tools to boot Linux on compatible iPhones (6s, 6s Plus, 7, 7 Plus, 8, 8 Plus, and X — A9, A10, and A11 devices) on iOS 12-14.5 using checkra1n, pongoOS, and custom kernel images.
+This project provides a guide and the necessary tools to boot Linux on compatible iPhones (6s, 6s Plus, 7, 7 Plus, 8, 8 Plus, and X — A9, A10, and A11 devices) on iOS 12-14.5.
 
 ## Supported Devices
 
