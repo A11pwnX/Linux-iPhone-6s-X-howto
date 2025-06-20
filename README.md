@@ -13,7 +13,7 @@ This project provides a guide and the necessary tools to boot Linux on compatibl
 - A compatible iPhone (see above)
 - A computer running Linux (recommended)
 - Administrative rights (`sudo`)
-- Required dependencies (`python3`, `git`, `pyusb` and other basic tools)
+- Required dependencies (`python3`, `git`, `pyusb`)
 
 ## Installation
 
