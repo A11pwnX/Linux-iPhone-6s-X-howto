@@ -16,6 +16,13 @@ This project provides a guide and the necessary tools to boot Linux on compatibl
 - Administrative rights (`sudo`)
 - Required dependencies (`python3`, `git`, `pyusb`)
 
+## Project Structure
+
+- `bin/` : Contains the required executables (`checkra1n`, scripts, etc.)
+- `pongo/` : PongoOS image (`Pongo.bin`)
+- `kernel/` : Kernel image (`Image.lzma`) and dtbpack (`dtbpack`)
+- `initramfs/` : Linux ramdisk files (`initramfs`)
+
 ## Installation
 
 Clone this repository:
@@ -45,13 +52,6 @@ sudo python3 ./bin/load_linux.py -k ./kernel/Image.lzma -d ./kernel/dtbpack -r .
 This command uploads and boots the Linux kernel, dtbpack, and initramfs to your device via PongoOS.
 
 you can put any initramfs in place of the one provided with the repo (which is broken) by putting the path to your initramfs after the -r of the command
-
-## Project Structure
-
-- `bin/` : Contains the required executables (`checkra1n`, scripts, etc.)
-- `pongo/` : PongoOS image (`Pongo.bin`)
-- `kernel/` : Kernel image (`Image.lzma`) and dtbpack (`dtbpack`)
-- `initramfs/` : Linux ramdisk files (`initramfs`)
 
 ## Boot postmarketOS via NETBOOT (not working at the moment)
 
