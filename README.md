@@ -21,7 +21,7 @@ This project provides a guide and the necessary tools to boot Linux on compatibl
 - `bin/` : Contains the required executables (`checkra1n`, scripts, etc.)
 - `pongo/` : PongoOS image (`Pongo.bin`)
 - `kernel/` : Kernel image (`Image.lzma`) and dtbpack (`dtbpack`)
-- `initramfs/` : Linux ramdisk files (`initramfs`)
+- `initramfs/` : Linux initramfs files (`initramfs`)
 
 ## Installation
 
